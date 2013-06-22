@@ -3,7 +3,7 @@ TraderPOC
 
 A Open Source Stock Trading Framework
 
-There is no code here yet.
+There is no code here yet - Repository Setup
 
 The concept is an open source Trading Framework where the framework is free but the decision making algorithms can be kept secret.
 
