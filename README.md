@@ -23,11 +23,32 @@ Components:
 
 Trading Base: responsible for communication between us and your broker
 
-Streamer Base: Responsible for receiving data from internet (including, but not limited to quotes)
+-----------
+
+Streamer Base: Responsible for receiving streaming data from internet (including, but not limited to quotes)
+  ---ok so created a module called 'feeds'.  What's the difference between a 'stream' and a 'feed'
+     a stream IsA feed.  a feed is not always a stream... ok....
+     
+     However, from an 'expert' point of view, everything is a 'stream of information'  
+      so you can 'stream' data to the experts from a 'feed'.
+     
+     So, all experts see 'streams'.   The stream object, however, may simply be connecting to a feed somewhere on the net,
+        for example, login to an email account where folks send messages to and parse the messages.
+        
+        the info we get, tho, will be output as a Stream.
+     
+So, stream is the right idea.  Stream objects may get info from a 'feed' somewhere, but the output will always be a 'stream'
+  Still wondering about implementation.
+
+---------------
 
 Expert Base: responsible for taking data from streamer or other experts and providing opinions on trades.
 
+---------------
+
 Authentication system:  for gaining access to any system requiring authentication.
+
+---------------
 
 
 Trading Base should be an ABC that is designed to talk to specific brokers, such as etrade, and use an autheticator.
