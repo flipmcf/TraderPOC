@@ -7,3 +7,12 @@
 ### Here is where I put info for ideas for experts
 ###
 
+Scan DowJones data for dividend distributions, and create a dividend hound.
+   Buy on dividend announcement, Sell after record date.
+   Make sure that payment exceeds comission of 2 trades.
+    K.I.S.S.
+    
+
+Find a favorite trader on stocktwits and follow just that person.  
+ Design an expert that IS that trader, or at least what he/she provides on twitter.
+  (may need to supplement with a TradingView.com API where a machine can read a chart)
