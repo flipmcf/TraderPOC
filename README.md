@@ -1,6 +1,18 @@
 TraderPOC
 =========
 
+====  NEED HELP! ====
+This is to change the playing field for automated and HFT traders.   there is nothing like this out there.
+This is GNU Open Source Licenced.  anyone can use it, contribute, and add.
+PLEASE DO!  Contact me if you need guidance on what you can help with.
+(I'm just too busy with my day job to contribute right now)
+
+The goal is to give the retail investor a leg up into automated trading.  This project will never be sold to a large firm (although large firms are free to use it). Any large firms that use this framework and enhance/alter/fix are obligated BY LAW to provide those fixes back to the community, preferably through this repository: https://github.com/flipmcf/TraderPOC
+
+LEVEL THE PLAYING FIELD!  KEEP MARKETS FAIR FOR ALL!  IF YOU CAN'T BEAT THEM!  JOIN THEM!
+
+===============
+
 A Open Source Stock Trading Framework
 
 There is no code here yet - Repository Setup
